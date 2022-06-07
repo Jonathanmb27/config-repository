@@ -7,5 +7,6 @@ spring:
       database: consumptions
       port: 27017
       host: localhost
-
+logging:
+   conifg: logback.xml
 clientHost: http://localhost:8080
