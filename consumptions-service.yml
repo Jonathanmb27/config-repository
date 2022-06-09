@@ -10,3 +10,4 @@ spring:
 logging:
    conifg: logback.xml
 clientHost: http://localhost:8080
+clientHostPro: http://localhost:8083
