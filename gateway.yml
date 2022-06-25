@@ -16,13 +16,13 @@ spring:
             - Path=/persons/**
           filters:
             - StripPrefix=0
-          uri: http://localhost:8080/persons
+          uri: http://localhost:8084/persons
 
         - predicates:
             - Path=/companies/**
           filters:
               - StripPrefix=0
-          uri: http://localhost:8080/companies
+          uri: http://localhost:8084/companies
 
         - predicates:
             - Path=/consumptions/**
