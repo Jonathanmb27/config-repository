@@ -41,6 +41,12 @@ spring:
           filters:
               - StripPrefix=0
           uri: http://localhost:8086/productoffers
+          
+        - predicates:
+            - Path=/bootcoin/**
+          filters:
+              - StripPrefix=0
+          uri: http://localhost:8083/bootcoin
 eureka:
   client:
     service-url:
