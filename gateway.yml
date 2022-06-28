@@ -37,10 +37,10 @@ spring:
           uri: http://localhost:8083/products
           
         - predicates:
-            - Path=/productOffers/**
+            - Path=/productofferss/**
           filters:
               - StripPrefix=0
-          uri: http://localhost:8086/productOffers
+          uri: http://localhost:8086/c
 eureka:
   client:
     service-url:
