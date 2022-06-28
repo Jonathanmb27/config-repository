@@ -1,0 +1,11 @@
+server:
+  port: 8086
+
+spring:
+  data:
+    mongodb:
+      database: bootcoins
+      port: 27017
+      host: localhost
+clientHost: http://localhost:8080
+productHost: http://localhost:8083
