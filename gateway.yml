@@ -40,7 +40,7 @@ spring:
             - Path=/productofferss/**
           filters:
               - StripPrefix=0
-          uri: http://localhost:8086/c
+          uri: http://localhost:8086/productofferss
 eureka:
   client:
     service-url:
